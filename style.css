@@ -1,0 +1,80 @@
+body{ text-align:center; }
+
+#head { height:416px; }
+	#head #galerie { position:relative; width:951px; height:285px; margin:0 auto; }
+	
+	#head #galerie #images { width:951px; height:285px; overflow:hidden; }
+	#head #galerie #images ul {width:2853px; height:285px;}
+	#head #galerie #images ul li { position: relative; float:left; width:951px; height:285px; list-style:none; display:inline }
+	#head #galerie #images img { width:951px; height:285px; }
+	#head #galerie #puces { position:absolute; left:11px; top:267px; }
+	#head #galerie #puces ul {}
+	#head #galerie #puces ul li { float:left; width:19px; list-style:none; }
+	#head #galerie #puces ul li a { float:left; width:12px; }
+	#head #galerie #puces ul li a #puce1 { float:left; width:12px; height: 12px; background:url("images/pointplein.png") top left no-repeat; }
+	#head #galerie #puces ul li a #puce2, #puce3 { float:left; width:12px; height: 12px; background:url("images/pointvide.png") top left no-repeat; }
+	
+	#head #ligne-centre {position:relative; width:951px; height:125; margin:0 auto }
+	#head #ligne-centre #logo {float: left; width:167px; height:88px; background:url("images/logo.png") top left no-repeat; margin:10px; }
+	#head #ligne-centre #menu {float: right; width:639px; height:40px; margin: 41px 0 auto }
+	#head #ligne-centre #menu #haut-menu{ width:639px; height:36px; background:url("images/menu.png") top left no-repeat; }
+	#head #ligne-centre #menu #haut-menu ul {}
+	#head #ligne-centre #menu #haut-menu ul li { float:left; width:211px; height:36px; list-style:none; }
+	#head #ligne-centre #menu #haut-menu ul li a { position:relative; font-family: arial; font-size:28px; font-weight:bold; text-decoration:none;}
+	#head #ligne-centre #menu #haut-menu ul li .actif { color:#484748; }
+	#head #ligne-centre #menu #haut-menu ul li .non-actif { color:white; }
+	#head #ligne-centre #menu #bas-menu-accueil { width:639px; height:4px; background:url("images/menu-accueil.png") top left no-repeat; }
+        #head #ligne-centre #menu #bas-menu-apropos { width:639px; height:4px; background:url("images/menu-apropos.png") top left no-repeat; }
+        #head #ligne-centre #menu #bas-menu-mecontacter { width:639px; height:4px; background:url("images/menu-mecontacter.png") top left no-repeat; }
+	
+	
+	
+#body { height:384px; }
+	#body #presentation { position:relative; width:951px; margin:0 auto 50px; }
+	#body #presentation p { font-family: arial; font-size:24px; text-align:left; margin: 0 82px 0 148px; color:#141515; }
+	#body #presentation p span { display:block; font-size:14px; text-align:justify; color:#484748; }
+	
+	
+	#body #modules { position:relative; width:1020px; height:223px; margin:0 auto; }
+	#body #modules #formulaire {float:left; width:377px; height:223px; margin: 0 0 0 30px; font-family:arial;}
+	#body #modules #formulaire form {float:left; width:296px; height:178px;}
+	#body #modules #formulaire form #form-titre {width:296px; height:45px;}
+	#body #modules #formulaire form #form-titre .titre-module {text-align:left; color:#484748; font-size:24px; }
+	#body #modules #formulaire form #identite { float:left; width:250px; height:41px; }
+	#body #modules #formulaire form #adresse { float:left; width:250px; height:41px; }
+	#body #modules #formulaire form .cont-module { float:left; text-align:left; width:90px; height:41px; color:#7b7979; margin-top:2px; font-size:18px;}
+	#body #modules #formulaire form .input-form {float:left; width:144px; height:17px; border: 1px solid #949594; padding:4px 7px; font-size:13px; color:#4f4f4f;}
+	#body #modules #formulaire form #effacer { position:absolute; top:129px; left:89px; width:70px; height:20px; background:url(images/effacer.png); font-size:12px; color:#ffffff; cursor:pointer; }
+	#body #modules #formulaire form #ajouter { position:absolute; top:129px; left:181px; width:70px; height:20px; background:url(images/ajouter.png); font-size:12px; color:#ffffff; cursor:pointer;}
+	#body #modules #formulaire form span { position:relative; top:2px;}
+	#body #modules #formulaire form #mire { position:absolute; top:82px; left:292px; width:34px; height:34px; background:url(images/mire.png) top left no-repeat; }
+	
+	#body #modules #liste {float:left; width:337px; font-family:arial;}
+	#body #modules #liste #liste-titre { width:337px; height:44px; }
+	#body #modules #liste #liste-titre .titre-module {text-align:left; color:#484748; font-size:24px; }
+	#body #modules #liste #liste-adr {width:337px;}
+	#body #modules #liste #liste-adr div ul {}
+	#body #modules #liste #liste-adr div ul li {width:337px; min-height:39px; list-style:none; }
+	#body #modules #liste #liste-adr div ul li .rectangle {position:relative; text-align:left; float:left; border:1px solid #b9b9b8; width:278px; min-height:auto; }
+	#body #modules #liste #liste-adr div ul li .rectangle div { width:250px; height:auto; padding-bottom: 18px;}
+	#body #modules #liste #liste-adr div ul li .rectangle div .nom { position:relative; top:7px; left:7px; font-size:18px; color:#7b7979; }
+	#body #modules #liste #liste-adr div ul li .rectangle div .adr { position:relative; top:7px; left:7px; font-size:14px; color:#4f4f4f; }
+	#body #modules #liste #liste-adr div ul li .rectangle .croix { position:absolute; top:11px; right:4px; background:url("images/croix.png") top left no-repeat; width:15px; height:15px; }
+        #body #modules #liste #liste-adr div ul li .espace {float:left; width:278px; min-height:13px;}
+	#body #modules #liste #liste-adr #compteur {float:right; position:relative; right:57px; width:184px; height:28px; background:url("images/total-entree.png") top left no-repeat;  margin-bottom:50px;}
+	#body #modules #liste #liste-adr #compteur #total {float:left; position:relative; top:3px; left:14px; text-align:left; font-size:18px; font-weight:bold; color:#ffffff; }
+	#body #modules #liste #liste-adr #compteur #nb {float:right; position:relative; top:3px; right:6px; text-align:right; font-size:18px; font-weight:bold; color:#606060; }
+	
+	#body #modules #gmap {float:left; width:250px; font-family:arial;}
+	#body #modules #gmap #map-titre {width:250px; height:43px;}
+	#body #modules #gmap #map-titre .titre-module {text-align:left; color:#484748; font-size:24px; }
+	
+	
+	#map { width: 100%; height: 300px; padding : 10px; border : 1px solid #aeaeae; margin : 0 auto;}
+        #map .gmnoprint { display:none; }
+        #map div div a div img { display:none; }
+
+
+
+
+

@@ -1,0 +1,411 @@
+body {
+    text-align: center;
+}
+
+#head {
+    height: 416px;
+}
+
+#head #galerie {
+    height: 285px;
+    margin: 0 auto;
+    position: relative;
+    width: 951px;
+}
+
+#head #galerie #images {
+    height: 285px;
+    overflow: hidden;
+    width: 951px;
+}
+
+#head #galerie #images ul {
+    height: 285px;
+    width: 2853px;
+}
+
+#head #galerie #images ul li {
+    display: inline;
+    float: left;
+    height: 285px;
+    list-style: none outside none;
+    position: relative;
+    width: 951px;
+}
+
+#head #galerie #images img {
+    height: 285px;
+    width: 951px;
+}
+
+#head #galerie #puces {
+    left: 11px;
+    position: absolute;
+    top: 267px;
+}
+
+#head #galerie #puces ul {
+}
+
+#head #galerie #puces ul li {
+    float: left;
+    list-style: none outside none;
+    width: 19px;
+}
+
+#head #galerie #puces ul li a {
+    float: left;
+    width: 12px;
+}
+
+#head #galerie #puces ul li a #puce1 {
+    background: url("images/pointplein.png") no-repeat scroll left top transparent;
+    float: left;
+    height: 12px;
+    width: 12px;
+}
+
+#head #galerie #puces ul li a #puce2, #puce3 {
+    background: url("images/pointvide.png") no-repeat scroll left top transparent;
+    float: left;
+    height: 12px;
+    width: 12px;
+}
+
+#head #ligne-centre {
+    margin: 0 auto;
+    position: relative;
+    width: 951px;
+}
+
+#head #ligne-centre #logo {
+    background: url("images/logo.png") no-repeat scroll left top transparent;
+    float: left;
+    height: 88px;
+    margin: 10px;
+    width: 167px;
+}
+
+#head #ligne-centre #menu {
+    float: right;
+    height: 40px;
+    margin: 41px 0 auto;
+    width: 639px;
+}
+
+#head #ligne-centre #menu #haut-menu {
+    background: url("images/menu.png") no-repeat scroll left top transparent;
+    height: 36px;
+    width: 639px;
+}
+
+#head #ligne-centre #menu #haut-menu ul {
+}
+
+#head #ligne-centre #menu #haut-menu ul li {
+    float: left;
+    height: 36px;
+    list-style: none outside none;
+    width: 211px;
+}
+
+#head #ligne-centre #menu #haut-menu ul li a {
+    font-family: arial;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    text-decoration: none;
+}
+
+#head #ligne-centre #menu #haut-menu ul li .actif {
+    color: #484748;
+}
+
+#head #ligne-centre #menu #haut-menu ul li .non-actif {
+    color: white;
+}
+
+#head #ligne-centre #menu #bas-menu-accueil {
+    background: url("images/menu-accueil.png") no-repeat scroll left top transparent;
+    height: 4px;
+    width: 639px;
+}
+
+#head #ligne-centre #menu #bas-menu-apropos {
+    background: url("images/menu-apropos.png") no-repeat scroll left top transparent;
+    height: 4px;
+    width: 639px;
+}
+
+#head #ligne-centre #menu #bas-menu-mecontacter {
+    background: url("images/menu-mecontacter.png") no-repeat scroll left top transparent;
+    height: 4px;
+    width: 639px;
+}
+
+#body {
+    height: 384px;
+}
+
+#body #presentation {
+    margin: 0 auto 50px;
+    position: relative;
+    width: 951px;
+}
+
+#body #presentation p {
+    color: #141515;
+    font-family: arial;
+    font-size: 24px;
+    margin: 0 82px 0 148px;
+    text-align: left;
+}
+
+#body #presentation p span {
+    color: #484748;
+    display: block;
+    font-size: 14px;
+    text-align: justify;
+}
+
+#body #modules {
+    height: 223px;
+    margin: 0 auto;
+    position: relative;
+    width: 1020px;
+}
+
+#body #modules #formulaire {
+    float: left;
+    font-family: arial;
+    height: 223px;
+    margin: 0 0 0 30px;
+    width: 377px;
+}
+
+#body #modules #formulaire form {
+    float: left;
+    height: 178px;
+    width: 296px;
+}
+
+#body #modules #formulaire form #form-titre {
+    height: 45px;
+    width: 296px;
+}
+
+#body #modules #formulaire form #form-titre .titre-module {
+    color: #484748;
+    font-size: 24px;
+    text-align: left;
+}
+
+#body #modules #formulaire form #identite {
+    float: left;
+    height: 41px;
+    width: 250px;
+}
+
+#body #modules #formulaire form #adresse {
+    float: left;
+    height: 41px;
+    width: 250px;
+}
+
+#body #modules #formulaire form .cont-module {
+    color: #7B7979;
+    float: left;
+    font-size: 18px;
+    height: 41px;
+    margin-top: 2px;
+    text-align: left;
+    width: 90px;
+}
+
+#body #modules #formulaire form .input-form {
+    border: 1px solid #949594;
+    color: #4F4F4F;
+    float: left;
+    font-size: 13px;
+    height: 17px;
+    padding: 4px 7px;
+    width: 144px;
+}
+
+#body #modules #formulaire form #effacer {
+    background: url("images/effacer.png") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 12px;
+    height: 20px;
+    left: 89px;
+    position: absolute;
+    top: 129px;
+    width: 70px;
+}
+
+#body #modules #formulaire form #ajouter {
+    background: url("images/ajouter.png") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 12px;
+    height: 20px;
+    left: 181px;
+    position: absolute;
+    top: 129px;
+    width: 70px;
+}
+
+#body #modules #formulaire form span {
+    position: relative;
+    top: 2px;
+}
+
+#body #modules #formulaire form #mire {
+    background: url("images/mire.png") no-repeat scroll left top transparent;
+    height: 34px;
+    left: 292px;
+    position: absolute;
+    top: 82px;
+    width: 34px;
+}
+
+#body #modules #liste {
+    float: left;
+    font-family: arial;
+    width: 337px;
+}
+
+#body #modules #liste #liste-titre {
+    height: 44px;
+    width: 337px;
+}
+
+#body #modules #liste #liste-titre .titre-module {
+    color: #484748;
+    font-size: 24px;
+    text-align: left;
+}
+
+#body #modules #liste #liste-adr {
+    width: 337px;
+}
+
+#body #modules #liste #liste-adr div ul {
+}
+
+#body #modules #liste #liste-adr div ul li {
+    list-style: none outside none;
+    min-height: 39px;
+    width: 337px;
+}
+
+#body #modules #liste #liste-adr div ul li .rectangle {
+    border: 1px solid #B9B9B8;
+    float: left;
+    position: relative;
+    text-align: left;
+    width: 278px;
+}
+
+#body #modules #liste #liste-adr div ul li .rectangle div {
+    height: auto;
+    padding-bottom: 18px;
+    width: 250px;
+}
+
+#body #modules #liste #liste-adr div ul li .rectangle div .nom {
+    color: #7B7979;
+    font-size: 18px;
+    left: 7px;
+    position: relative;
+    top: 7px;
+}
+
+#body #modules #liste #liste-adr div ul li .rectangle div .adr {
+    color: #4F4F4F;
+    font-size: 14px;
+    left: 7px;
+    position: relative;
+    top: 7px;
+}
+
+#body #modules #liste #liste-adr div ul li .rectangle .croix {
+    background: url("images/croix.png") no-repeat scroll left top transparent;
+    height: 15px;
+    position: absolute;
+    right: 4px;
+    top: 11px;
+    width: 15px;
+}
+
+#body #modules #liste #liste-adr div ul li .espace {
+    float: left;
+    min-height: 13px;
+    width: 278px;
+}
+
+#body #modules #liste #liste-adr #compteur {
+    background: url("images/total-entree.png") no-repeat scroll left top transparent;
+    float: right;
+    height: 28px;
+    margin-bottom: 50px;
+    position: relative;
+    right: 57px;
+    width: 184px;
+}
+
+#body #modules #liste #liste-adr #compteur #total {
+    color: #FFFFFF;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    left: 14px;
+    position: relative;
+    text-align: left;
+    top: 3px;
+}
+
+#body #modules #liste #liste-adr #compteur #nb {
+    color: #606060;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    right: 6px;
+    text-align: right;
+    top: 3px;
+}
+
+#body #modules #gmap {
+    float: left;
+    font-family: arial;
+    width: 250px;
+}
+
+#body #modules #gmap #map-titre {
+    height: 43px;
+    width: 250px;
+}
+
+#body #modules #gmap #map-titre .titre-module {
+    color: #484748;
+    font-size: 24px;
+    text-align: left;
+}
+
+#map {
+    border: 1px solid #AEAEAE;
+    height: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+}
+
+#map .gmnoprint {
+    display: none;
+}
+
+#map div div a div img {
+    display: none;
+}
